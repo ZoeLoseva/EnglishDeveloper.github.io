@@ -1,0 +1,139 @@
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+}
+.background{
+  filter: contrast(50%);
+}
+
+h1 {
+  text-align: center;
+  color:black;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-size: 40px;
+}
+
+
+
+h2 {
+  background-color: black;
+  padding: 15px;
+  font-style: normal;
+  font-size: x-large;
+  color: white;
+  text-align: center;
+}
+
+a:hover {
+  background-color: rgba(157, 168, 168, 0.438);
+  color: aliceblue;
+}
+
+
+h3{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+h4{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 150%;
+  font-weight: lighter;
+}
+
+input[type="button"] {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+}
+
+.audio{
+    margin-bottom: 10px;
+}
+
+.label{
+    font-size: large;
+    border-color: black;
+    border:rgba(157, 168, 168, 0.438);
+    border: solid;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.option{
+    font-size: large;
+    border-color: black;
+    border:rgba(157, 168, 168, 0.438);
+    border: solid;
+    padding: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.check{
+    margin-top: 20px;
+    font-size: large;
+    border: solid;
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 150%;
+  font-weight: lighter;
+  border:rgba(157, 168, 168, 0.438);
+    border: solid 1px;
+    padding: 4px;
+    background-color: black;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+.input{
+  margin-top: 15px;
+}
+
+
+.check {
+  border: 2px solid rgba(128, 128, 128, 0.5);
+  padding: 10px;
+  color: black;
+  background-color: white;
+  font-size: large;
+  border-radius: 10px;
+  background-image: linear-gradient(to top left, rgba(224, 224, 224, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+}
+
+input[name='type'] {
+  display: none;
+}
+
+.numbers {
+  display: none;
+  font-size: 23px;
+}
+ 
+#answers:checked~#correct {
+  display: inline;
+  border: none;
+  background-color: transparent;
+  color: black;
+  padding: 6px;
+  
+}
+
+.check:hover {
+  background-color: rgba(238, 237, 237, 0.925);
+}
+
+
